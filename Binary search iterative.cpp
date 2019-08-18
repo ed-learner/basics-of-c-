@@ -1,5 +1,5 @@
 /* Binary search algorithm  using a while loop to search a specific number in a sorted array of integers and
-   returns the position of the number in the array and -1 if it is not found.
+   returning the position of the number in the array and -1 if it is not found.
  */
 
 #include<iostream>
@@ -11,7 +11,7 @@ int binary_search(int sortedarray[], int search_number, int sortedarray_len ){
   int high_value_position = sortedarray_len -1;
 
   while (low_value_position  <= high_value_position ){
-    int mid_value = low_value_position  +((high_value_position -low_value_position )/2);
+    int mid_value = low_value_position  + ((high_value_position -low_value_position )/2);
 
     if( sortedarray[mid_value] == search_number ){
         return mid_value;
