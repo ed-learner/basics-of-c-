@@ -1,5 +1,12 @@
 /* Binary search algorithm  using a while loop to search a specific number in a sorted array of integers and
    returning the position of the number in the array and -1 if it is not found.
+   
+   The main idea behind binary search algorithm is to keep dividing the array in half until the array element being searched is found or
+   all the array elements are exhausted.The array middle value is compared with the value being searched and if the two match a bool value
+   of true is returned. If the middle value is greater than the value being searched , the search is performed in the left sub-array and 
+   If the middle value is less than the value being searched , the search is performed in the right sub-array of the middle value.
+   A precondition of this method is that the array on which the search is performed has to be sorted in order from the lowest value to 
+   the highest value.
  */
 
 #include<iostream>
