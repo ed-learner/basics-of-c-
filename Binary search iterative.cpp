@@ -1,3 +1,7 @@
+/* Binary search algorithm  using a while loop to search a specific number in a sorted array of integers and
+   returns the position of the number in the array and -1 if it is not found.
+ */
+
 #include<iostream>
 
 using namespace std;
@@ -21,8 +25,9 @@ int binary_search(int sortedarray[], int search_number, int sortedarray_len ){
     }
   }
 return -1;
-
 }
+
+
 
 int main() {
     int array1[] = {1,2,4,7,8,12, 13,14};
