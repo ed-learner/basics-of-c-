@@ -50,7 +50,7 @@ int main() {
     cout<<" Number 9 found at position: "<<binary_search(array1,9,size1)<<endl;
 
     cout<<"\n Binary number search in second array."<<endl;
-    for (int k =0; k<=size1 ; k++){
+    for (int k =0; k<=size2 ; k++){
     cout<<" "<<array2[k];
     }
     cout<<"\n Number 1 found at position: "<<binary_search(array2,1,size2)<<endl;
