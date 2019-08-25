@@ -1,4 +1,6 @@
-
+/* Binary search algorithm  using class functions and a while loop to search a specific number in a vector of integers and
+   returning the position of the number in the vector and -1 if it is not found.
+ */
 #include<iostream>
 #include<vector>
 
