@@ -1,0 +1,29 @@
+#include<string>
+#include<iostream>
+
+using namespace std;
+
+int main(){
+
+    string s1 = "This is it";
+
+    int string_start = 0;
+    int string_end = s1.size()-1;
+    char temp_holder = 0;
+
+    while(string_end > string_start){
+
+            temp_holder = s1[string_end];
+            s1[string_end] = s1[string_start];
+            s1[string_start] = temp_holder;
+
+        string_start++;
+        string_end--;
+    }
+
+    cout<<s1<<endl;
+
+
+return 0;
+
+}
