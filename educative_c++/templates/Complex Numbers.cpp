@@ -38,8 +38,6 @@ class Complex {
 
 };
 
-
-
 int main()
 {
     double x=500, y=100;
