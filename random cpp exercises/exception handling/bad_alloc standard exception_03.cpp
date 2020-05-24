@@ -14,7 +14,6 @@ try {
 catch (exception & e){
 
     cout<<"Standard exception: "<<e.what()<<endl;
-
 }
 
 return 0;
