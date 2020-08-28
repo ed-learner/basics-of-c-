@@ -10,7 +10,7 @@ using namespace std;
 int main(int argc, char* argv[]) {
 
 	double windowWidthCenter = Window::SCREEN_WIDTH /2;
-	double windowHeightCenter = Window::SCREEN_WIDTH /2;
+	double windowHeightCenter = Window::SCREEN_HEIGHT /2;
 
 	Window screen;
 	swarm swm;
@@ -34,7 +34,7 @@ int main(int argc, char* argv[]) {
 			Particle particle = pParticles[i];
 
 			int x = (particle.pos_x + 1) * windowWidthCenter;
-			int y = particle.pos_y * (windowWidthCenter + windowHeightCenter);
+			int y = (particle.pos_y * windowWidthCenter) + windowHeightCenter;
 
 			screen.setWindowPixel(x, y, red, green, blue);
 		}
